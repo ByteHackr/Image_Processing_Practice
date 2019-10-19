@@ -1,5 +1,5 @@
 clear
-image = imread('DSC_1540tamp1.jpg'); %resim okundu
+image = imread('forged1_gj90.png'); %resim okundu
 
 grayimage = rgb2gray(image); %resim gri seviyeye getirildi
 
@@ -93,7 +93,7 @@ index_row = 1;
      suspect_counter = 0;
  end
  
-maske = imread('DSC_1540_scale.jpg');
+maske = imread('forged1.png');
 metrik = getFmeasure(maske,image);
 imshow(image)
 imshow(maske)
