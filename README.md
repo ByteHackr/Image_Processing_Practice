@@ -1,2 +1,2 @@
 # Image_Processing_Practice
-My Daily Practice : Image Processing
+Basic Learning Practice : Image Processing
