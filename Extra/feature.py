@@ -10,7 +10,7 @@ Created on Tue Apr 28 10:18:50 2020
 import cv2
 import numpy as np
 
-filename = 'test.jpg'
+filename = 'test_1.jpg'
 img = cv2.imread(filename)
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
@@ -29,7 +29,7 @@ img[dst>0.01*dst.max()]=[0,0,255]
 # np.ndarray.tofile(dst, sep="", format="%s")
 
 
-with open("feature.txt", 'a') as fp:
+with open("features.txt", 'a') as fp:
     # for result in dst.items():
     #     fp.write('%s:%s\n' % (dst))
     fp.write(l)        
