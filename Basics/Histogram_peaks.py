@@ -44,7 +44,7 @@ def Draw_Histogram(in_img):
                k = k - 1
                j = j - 1
            
-    cv2.imwrite("Hist_image_peaks.png",hist_pic)
+    cv.imwrite("Hist_image_peaks.png",hist_pic)
     
 
 def main():
